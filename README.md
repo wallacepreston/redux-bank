@@ -1,4 +1,4 @@
-# Javascript Project Template
+# Redux Bank
 
 Getting Started
 
