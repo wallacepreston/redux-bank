@@ -6,8 +6,8 @@ export function App() {
 
     useEffect(() => {
         store.subscribe(() => {
-        const storeState = store.getState();
-        setBalanceAmount(storeState.balance);
+            const storeState = store.getState();
+            setBalanceAmount(storeState.balance);
         });
     });
 
