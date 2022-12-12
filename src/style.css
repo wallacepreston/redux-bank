@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-  background-color: #00703B;
+  background-color: rgb(198, 125, 198);
   color: #fff;
   text-align: center;
 }
@@ -18,21 +18,24 @@ header {
   width:100%;
   padding: 15px;
   background-color: #D8D8BF;
-  color: #00703B;
+  color: rgb(169, 78, 169);
   font-size: 30px;
 }
 
-.atm {
+.controls {
   width: 320px;
   border-radius: 10px;
-  background-color: #1D4F27;
+  background-color: rgb(169, 78, 169);
   margin: 10px auto 0 auto;
   padding: 20px;
 }
 
-.atm button {
+.controls button {
   width: 150px;
   height: 56px;
-  margin: 4px 2px;
+  margin: 4px 3px;
   padding: 20px 36px;
+  background-color: #D8D8BF;
+  border: 0px;
+  border-radius: .25rem;
 }

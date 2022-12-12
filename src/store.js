@@ -14,7 +14,8 @@ export const withdraw = amount => ({
 });
 
 const intialState = { balance: 0 };
-const store = createStore((state = intialState, action) => {
+
+export const reducer = (state = intialState, action) => {
   switch (action.type) {
     case DEPOSIT:
       return { balance: state.balance + action.amount }
@@ -23,6 +24,8 @@ const store = createStore((state = intialState, action) => {
     default:
       return state;
   }
-})
+}
+
+const store = createStore(reducer)
 
 export default store;

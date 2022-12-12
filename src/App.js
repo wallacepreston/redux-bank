@@ -14,11 +14,12 @@ export function App() {
     return (
       <div>
         <header>
-          <br />Redux Bank
+          <br />Multiverse Bank
         </header>
         <br />
+        <h3>Current Balance:</h3>
         <h1>{balanceAmount}</h1>
-        <div className="atm">
+        <div className="controls">
           <button onClick={() => {
             store.dispatch(deposit(5));
           }}>Deposit $5</button>
